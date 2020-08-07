@@ -5,7 +5,7 @@ function BoardMember(name,homeState,training){
   this.training=training
 }
 BoardMember.prototype.approve=function(){
-  
+ return  "You can do that!"
 }
 
 BoardMember.prototype.veto=function(){
